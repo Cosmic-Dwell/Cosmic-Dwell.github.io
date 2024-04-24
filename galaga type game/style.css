@@ -1,0 +1,21 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+  }
+  
+  #gameContainer {
+    width: 800px;
+    height: 600px;
+    overflow: hidden;
+    background-image: url('space-background.jpg'); /* Add a space-themed background */
+  }
+  
+  canvas {
+    display: block;
+    background: transparent;
+  }
+  
